@@ -26,6 +26,7 @@ public class PlayerMove : MonoBehaviour
         else if (rigid.velocity.x < maxSpeed * (-1)) // left max speed
             rigid.velocity = new Vector2(maxSpeed,rigid.velocity.y);
         
+        // master branch testing
         
     }
 }
