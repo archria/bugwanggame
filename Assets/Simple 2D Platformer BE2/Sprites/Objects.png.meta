@@ -29,6 +29,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -38,11 +39,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -60,9 +61,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -152,7 +156,17 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -1.996357, y: 8}
+        - {x: -1.9563065, y: -5.9712076}
+        - {x: -4.061323, y: -6.0315723}
+        - {x: -5.1633263, y: -8}
+        - {x: 4.9945316, y: -8}
+        - {x: 3.877327, y: -5.9899683}
+        - {x: 1.0453186, y: -6.0067086}
+        - {x: 1.0844135, y: -0.044397354}
+        - {x: 7.002182, y: -0.07300377}
+        - {x: 6.864601, y: 8}
       tessellationDetail: 0
       bones: []
       spriteID: 011a6d2935bb88cc0800000000000000
